@@ -15,7 +15,7 @@ def euler_method(nodes_num:int, start:float, end:float, init_value:float, fn:cal
         index += 1
     return values
 
-fn = lambda x,y: x*y
+# fn = lambda x,y: 
 
-results = euler_method(100, 0, 1, 1, lambda x,y: x+y)
-print(results)
+# results = euler_method(100, 0, 1, 1, lambda x,y: x+y)
+# print(results)
