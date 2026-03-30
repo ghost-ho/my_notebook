@@ -1,8 +1,15 @@
-import 学生管理系统_功能部分 as stu_sys
+def init():
+    print("              欢迎使用图书管理系统             ")
+    print("*             1. 登入账户                    *")
+    print("*             2. 注册账户                    *")
+    print("*             3. 退出系统                    *")
+    print("*********************************************")
 
-
-command = ""
-
-while stu_sys.EXIT(command):
-    stu_sys.init()
-    command = input()
+def user_init():
+    print("              你已登入图书管理系统             ")
+    print("*             1. 查找图书                    *")
+    print("*             2. 返还图书                    *")
+    print("*             3. 借阅图书                    *")
+    print("*             4. 贡献图书                    *")
+    print("*             5. 退出账户                    *")
+    print("*********************************************")
